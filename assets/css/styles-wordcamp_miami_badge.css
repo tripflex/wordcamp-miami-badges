@@ -1,4 +1,5 @@
-.wordcamp_miami_badge, .wordcamp_miami_badge img {
+.wordcamp_miami_badge {
 	width: 150px;
 	height: 175px;
+	position: relative;
 }

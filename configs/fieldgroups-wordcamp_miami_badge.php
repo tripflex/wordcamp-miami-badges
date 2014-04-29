@@ -12,6 +12,6 @@
 
 
 $configfiles = array(
-	self::get_path( __FILE__ ) . 'wordcamp_miami_badge-settings.php', 
+	self::get_path( __FILE__ ) . 'wordcamp_miami_badge-configuration.php', 
 );
 
