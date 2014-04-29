@@ -18,13 +18,13 @@ $group = array(
 	'fields' => array(
 		'badge_type'	=>	array(
 			'label'		=> 	__('Badge Type','wordcamp-miami-badges'),
-			'caption'	=>	__('Type of badge to display','wordcamp-miami-badges'),
+			'caption'	=>	__('Badge Type','wordcamp-miami-badges'),
 			'type'		=>	'dropdown',
 			'default'	=> 	'*attending||Im Attending,speaking||Im Speaking,sponsor||Im a Proud Sponsor,volunteer||Im a Volunteer',
 		),
 		'alignment'	=>	array(
 			'label'		=> 	__('Alignment','wordcamp-miami-badges'),
-			'caption'	=>	__('How should we align the image?','wordcamp-miami-badges'),
+			'caption'	=>	__('Alignment','wordcamp-miami-badges'),
 			'type'		=>	'onoff',
 			'default'	=> 	'*none||None,left||Left,center||Center,right||Right',
 			'inline'	=> 	true,

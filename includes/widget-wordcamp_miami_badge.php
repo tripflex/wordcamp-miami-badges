@@ -19,7 +19,7 @@ class Widget_wordcamp_miami_badge extends WP_Widget {
 			'wordcamp_miami_badge-id',
 			__( 'Wordcamp Miami Badges', 'wordcamp-miami-badges' ),
 			array(
-				'description'	=>	__( 'Display a Wordcamp Miami badge.', 'wordcamp-miami-badges' )
+				'description'	=>	__( 'Display a 2014 Wordcamp Miami Badge.', 'wordcamp-miami-badges' )
 			)
 		);
 
