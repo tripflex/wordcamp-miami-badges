@@ -15,19 +15,22 @@ Display Wordcamp Miami 2014 badges on your website with Shortcode or Widget
 Badges are from http://2014.miami.wordcamp.org/badges/
 
 ### Features ###
-* Alignment
-* Attending, Speaking, Sponsor, or Volunteer badges
++ Alignment
++ Attending, Speaking, Sponsor, or Volunteer badges
 
 ## Screenshots ##
 
+### Widget Configuration ###
 ![](https://smyl.es/img/wordcamp-miami-badges-widget-preview.png)
-Widget Configuration
+
+### Shortcode Button ###
 ![](https://smyl.es/img/wordcamp-miami-badges-shortcode-button.png)
-Shortcode Button
+
+### Shortcode Configuration ###
 ![](https://smyl.es/img/wordcamp-miami-badges-insert-shortcode.png)
-Shortcode Configuration
+
+#### Badge Example ####
 ![](https://smyl.es/img/Selection-161x188-99.png)
-Badge Example
 
 ### Contributing and reporting bugs ###
 
@@ -44,10 +47,10 @@ Or contact me at myles@smyl.es
 
 Install directly from Wordpress installation.  Go to Plugins and then search for "Wordcamp Miami Badges"
 
-* Manual Installation *
+**Manual Installation**
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
-* Usage *
+**Usage**
 1. Add Widget or Shortcode
 
 ## Frequently Asked Questions ##
