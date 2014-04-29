@@ -16,6 +16,8 @@
  * Text Domain: wordcamp-miami-badges
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * GitHub Plugin URI: tripflex/wordcamp-miami-badges
+ * GitHub Branch:   master
  * Domain Path: /languages
  */
 
