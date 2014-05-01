@@ -39,6 +39,4 @@ register_deactivation_hook( __FILE__, array( 'Wordcamp_Miami_Badges', 'deactivat
 add_action( 'plugins_loaded', array( 'Wordcamp_Miami_Badges', 'get_instance' ) );
 //Wordcamp_Miami_Badges::get_instance();
 
-add_filter( 'plugin_row_meta', array( 'Wordcamp_Miami_Badges', 'add_plugin_row_meta'), 10, 4 );
-
 ?>
