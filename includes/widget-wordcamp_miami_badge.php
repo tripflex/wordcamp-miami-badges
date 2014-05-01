@@ -13,10 +13,7 @@ class Widget_wordcamp_miami_badge extends WP_Widget {
 	public function __construct() {
 
 		// load plugin text domain
-		//add_action( 'init', array( $this, 'widget_textdomain' ) );
-		
-		// load plugin text domain under plugins_loaded action
-		// add_action( 'plugins_loaded', array( $this, 'widget_textdomain' ) );
+		add_action( 'init', array( $this, 'widget_textdomain' ) );
 
 		parent::__construct(
 			'wordcamp_miami_badge-id',
