@@ -58,7 +58,10 @@ class Wordcamp_Miami_Badges {
 
 		// Load admin style sheet and JavaScript.
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_stylescripts' ) );
-		
+
+		// Add plugin row meta (Github, Translation, etc)
+		add_filter( 'plugin_row_meta', array( $this, 'add_plugin_row_meta'), 10, 4 );
+
 		add_action('wp_footer', array( $this, 'footer_scripts' ) );
 
 		// Detect element before rendering the page so that we can enque scripts and styles needed
@@ -173,7 +176,7 @@ class Wordcamp_Miami_Badges {
 	 * @param   string  $status       Plugin status.
 	 * @return  array                 Plugin meta array.
 	 */
-	function add_plugin_row_meta( $plugin_meta, $plugin_file, $plugin_data, $status ) {
+	public function add_plugin_row_meta( $plugin_meta, $plugin_file, $plugin_data, $status ) {
 		if ( $this->plugin_slug . '/plugincore.php' == $plugin_file ) {
 			$plugin_meta[] = sprintf( '<a href="%s">%s</a>', __( 'http://github.com/tripflex/' . $this->plugin_slug, $this->plugin_slug), __( 'GitHub', $this->plugin_slug ) );
 			$plugin_meta[] = sprintf( '<a href="%s">%s</a>', __( 'https://www.transifex.com/projects/p/' . $this->plugin_slug . '/resource/' . $this->plugin_slug  . '/', $this->plugin_slug ), __( 'Translate', $this->plugin_slug ) );
