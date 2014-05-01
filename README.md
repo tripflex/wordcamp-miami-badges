@@ -4,7 +4,7 @@
 + **Tags:** wordcamp, miami, badges, shortcode, widget, 2014
 + **Requires at least:** 3.8
 + **Tested up to:** 3.9
-+ **Stable tag:** 1.0
++ **Stable tag:** 1.0.2
 
 Display Wordcamp Miami 2014 badges on your website with Shortcode or Widget
 
@@ -56,5 +56,17 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 ## Frequently Asked Questions ##
 
 ## Changelog ##
-**1.0 (April 29, 2014)**
-First Release
+= 1.0.2 =
+* May 1, 2014
+- Add p tags to widget label and fields
+- Added widefat class to dropdown to make full width
+- Full width group buttons
+- Add text_domain action commented out in case of future translations
+
+= 1.0.1 =
+* April 30, 2014
+- Fix attending image and link
+
+= 1.0.0 = 
+* April 29, 2014
+- First Release
