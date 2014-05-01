@@ -19,7 +19,7 @@ class Wordcamp_Miami_Badges {
 	/**
 	 * @var     string
 	 */
-	const VERSION = '1.00';
+	const VERSION = '1.0.2';
 	/**
 	 * @var      string
 	 */
