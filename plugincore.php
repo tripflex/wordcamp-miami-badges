@@ -18,7 +18,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * GitHub Plugin URI: tripflex/wordcamp-miami-badges
  * GitHub Branch:   master
- * Domain Path: /lang
+ * Domain Path: /languages
  */
 
 // If this file is called directly, abort.
