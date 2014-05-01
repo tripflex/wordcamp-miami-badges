@@ -217,7 +217,7 @@ class Widget_wordcamp_miami_badge extends WP_Widget {
 	 */
 	public function widget_textdomain() {
 
-		load_plugin_textdomain( 'wordcamp-miami-badges', false, self::get_path( dirname( __FILE__ ) ) . '/lang/' );
+		load_plugin_textdomain( 'wordcamp-miami-badges', false, self::get_path( dirname( __FILE__ ) ) . '/languages/' );
 
 	} // end widget_textdomain
 
