@@ -6,6 +6,8 @@
 		}
 	}
 	$parts = explode(',', $settings['default']);
+	$total_parts = count($parts);
+	if($total_parts) $width = (100 / $total_parts);
 	$default = null;
 ?>
 <span class="toggle-group">
@@ -29,7 +31,7 @@
 					$default = $value;
 					$isSet = ' button-primary';
 				}
-				echo '<span class="button'.$isSet.'" data-value="'.sanitize_text_field($toggle[0]).'">'.$toggle[1].'</span>';
+				echo '<span style="width:'.$width.'%;" class="button'.$isSet.'" data-value="'.sanitize_text_field($toggle[0]).'">'.$toggle[1].'</span>';
 			}
 		?>
 	</span>
