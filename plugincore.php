@@ -10,7 +10,7 @@
  * Plugin Name: Wordcamp Miami Badges
  * Plugin URI:  http://github.com/tripflex/wordcamp-miami-badges
  * Description: Display 2014 Wordcamp Miami badges on your site with Shortcode or Widget
- * Version:     1.00
+ * Version:     1.0.2
  * Author:      Myles McNamara
  * Author URI:  http://smyl.es
  * Text Domain: wordcamp-miami-badges
@@ -18,7 +18,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * GitHub Plugin URI: tripflex/wordcamp-miami-badges
  * GitHub Branch:   master
- * Domain Path: /languages
+ * Domain Path: /lang
  */
 
 // If this file is called directly, abort.
