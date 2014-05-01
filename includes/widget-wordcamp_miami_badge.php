@@ -172,9 +172,9 @@ class Widget_wordcamp_miami_badge extends WP_Widget {
 					$label = (!empty($settings['caption']) ? $settings['caption'] : $settings['label']);
 					//$caption = $settings['caption'];
 									
-					echo '<div class="wordcamp-miami-badges-field-row"><label class="wordcamp-miami-badges_widget_label" for="'.$id.'">'.$label.'</label>';
+					echo '<div class="wordcamp-miami-badges-field-row"><p><label class="wordcamp-miami-badges_widget_label" for="'.$id.'">'.$label.'</label></p><p>';
 					include self::get_path( dirname( __FILE__ ) ) . 'includes/field-'.$settings['type'].'.php';
-					echo '</div>';
+					echo '</p></div>';
 				}
 			echo "</div>\r\n";
 		}
