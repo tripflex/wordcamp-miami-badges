@@ -6,6 +6,9 @@
 + **Tested up to:** 3.9
 + **Stable tag:** 1.0.2
 
+### This plugin was for Wordcamp Miami 2014
+Which unfortunately is now over, was a great time and can't wait until next year.  Hopefully soon this plugin can be ported to be used at any future wordcamp, but I have not started on it yet.
+
 Display Wordcamp Miami 2014 badges on your website with Shortcode or Widget
 
 ## Description ##
